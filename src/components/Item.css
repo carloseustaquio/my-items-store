@@ -36,10 +36,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 90%;
-  max-height: 90%;
-	min-width: 300px;
-	height: auto;
   overflow: hidden;
   background-color: #fff;
   border-radius: 8px;
@@ -58,8 +54,8 @@
 }
 
 .modal-image {
-  width: 100%;
-  height: auto;
+  max-height: 90vh;
+  max-width: 90vw;
 }
 
 .close-button {
@@ -69,4 +65,9 @@
   background-color: #fff;
   border: none;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: monospace;
 }

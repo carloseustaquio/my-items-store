@@ -17,6 +17,8 @@ function Item({ item }: ItemProps) {
   const base = import.meta.env.PROD ? import.meta.env.BASE_URL : '';
 
   const openModal = (src: string) => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    // if (isMobile) return;
     setModalIsOpen(src);
   };
 
@@ -30,19 +32,21 @@ function Item({ item }: ItemProps) {
       {item.description.map((d) => (
         <p>{d}</p>
       ))}
-      <p>Preço: R$ {item.price},00</p>
-      {item.images.map((image, index) => {
-				const src = `${base}/images/webp/${image}`;
-				return (
-					<img
-						key={index}
-						src={src}
-						alt={`Item Image ${index + 1}`}
-						onClick={() => openModal(src)}
-						className="item-image"
-					/>
-  	    )
-			})}
+      <p>
+        <b>Preço: R$ {item.price},00</b>
+      </p>
+        {item.images.map((image, index) => {
+          const src = `${base}/images/webp/${image}`;
+          return (
+            <img
+              key={index}
+              src={src}
+              alt={`Item Image ${index + 1}`}
+              onClick={() => openModal(src)}
+              className="item-image"
+            />
+          )
+        })}
 
       {/* Modal */}
       <Modal
@@ -58,7 +62,7 @@ function Item({ item }: ItemProps) {
           className="modal-image"
         />
         <button onClick={closeModal} className="close-button">
-          Close
+          x
         </button>
       </Modal>
     </div>

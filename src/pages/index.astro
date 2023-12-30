@@ -20,13 +20,20 @@ import products from '../data/items.json';
 				margin: 0;
 			}
 			body {
-				padding: 2rem;
+				padding: 1rem;
+			}
+
+			@media screen and (min-width: 600px) {
+				body {
+					padding: 2rem;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<main>
-			<h1>Bazar do Carlinhos</h1>
+			<h1>Bazar do Carlinhos
+				🇧🇷	🇵🇹</h1>
 			{products.map(p => <Item item={p} client:load />)}
 		</main>
 		<div id="modal-root"></div>
