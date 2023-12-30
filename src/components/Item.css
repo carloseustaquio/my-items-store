@@ -16,11 +16,14 @@
   margin-bottom: 12px;
 }
 
+.item .blur {
+  filter: blur(4px);
+}
+
 .item-image {
   cursor: pointer;
   max-width: 300px;
   height: auto;
-  border-radius: 4px;
   margin-top: 8px;
 }
 

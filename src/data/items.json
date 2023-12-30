@@ -54,5 +54,12 @@
     "description": ["Excelente violino Eagle 4/4 com arco e case. Pouco usado e em ótimo estado."],
     "price": 699.00,
     "images": ["violin-1.webp", "violin-2.webp", "violin-3.webp", "violin-4.webp"]
+  },
+  {
+    "id": 9,
+    "title": "Piano Vertical Essenfelder",
+    "description": ["Modelo antigo com qualidade de som impressionante, teclas de alta qualidade, em ótimo estado de conservação.", "Cor madeira em tom escuro", "Acompanha banqueta."],
+    "toConsultPrice": true,
+    "images": ["piano-2.webp", "piano-3.webp", "piano-4.webp", "piano-5.webp", "piano-1.webp"]
   }
 ]

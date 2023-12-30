@@ -6,7 +6,8 @@ interface ItemProps {
 	item: {
 		title: string;
 		description: string[];
-		price: number;
+		price?: number;
+    toConsultPrice?: boolean;
 		images: string[];
 	}
 }
@@ -33,7 +34,13 @@ function Item({ item }: ItemProps) {
         <p>{d}</p>
       ))}
       <p>
-        <b>Preço: R$ {item.price},00</b>
+        {item.toConsultPrice ? (
+          <>
+            <b>Preço: <span className="blur">19.000,00</span></b>
+            <small> (Preço sob consulta!)</small>
+          </>
+        ) : null}
+        {item.price ? <b>Preço: R$ {item.price},00</b> : null}
       </p>
         {item.images.map((image, index) => {
           const src = `${base}/images/webp/${image}`;
