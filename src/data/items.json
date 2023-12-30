@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Guitarra Fender Stratocaster MX",
-    "description": ["Guitarra em excelente estado, pouco usada.", "Acompanha bag e alavanca."],
+    "description": ["Uma Fender Strato dispensa apresentações. Guitarra em excelente estado, pouco usada.", "Acompanha bag e alavanca."],
     "price": 4.999,
     "images": ["guitar-fender-1.webp", "guitar-fender-2.webp", "guitar-fender-3.webp"]
   },
