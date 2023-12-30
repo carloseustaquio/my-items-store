@@ -20,6 +20,11 @@
   filter: blur(4px);
 }
 
+.item .hint {
+  margin: 0 1rem;
+  font-size: 12px;
+}
+
 .item-image {
   cursor: pointer;
   max-width: 300px;

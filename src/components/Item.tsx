@@ -54,6 +54,8 @@ function Item({ item }: ItemProps) {
             />
           )
         })}
+        
+      <span className="hint">Clique nas imagens para aumentar!</span>
 
       {/* Modal */}
       <Modal
