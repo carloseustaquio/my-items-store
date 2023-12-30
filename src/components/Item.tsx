@@ -14,6 +14,8 @@ interface ItemProps {
 function Item({ item }: ItemProps) {
   const [modalIsOpen, setModalIsOpen] = useState<string | null>(null);
 
+  const base = import.meta.env.PROD ? import.meta.env.BASE_URL : '';
+
   const openModal = (src: string) => {
     setModalIsOpen(src);
   };
@@ -30,7 +32,7 @@ function Item({ item }: ItemProps) {
       ))}
       <p>Preço: R$ {item.price},00</p>
       {item.images.map((image, index) => {
-				const src = `/images/webp/${image}`;
+				const src = `${base}/images/webp/${image}`;
 				return (
 					<img
 						key={index}
