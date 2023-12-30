@@ -1,5 +1,6 @@
 ---
 // Component Imports
+import { ContactBtn } from '../components/ContactBtn';
 import Item from '../components/Item';
 import products from '../data/items.json';
 
@@ -13,28 +14,56 @@ import products from '../data/items.json';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>Bazar do Carlinhos</title>
 		<style>
 			html,
 			body {
 				font-family: system-ui;
 				margin: 0;
 			}
+
 			body {
 				padding: 1rem;
+				border-bottom: solid 16px #ddd;
+				border-top: solid 16px #ddd;
 			}
 
+			h1 {
+				margin: 0;
+			}
+
+			header {
+				display: flex;
+				align-items: center;
+				padding: 0 1rem;
+				gap: 1rem;
+				flex-wrap: wrap;
+				margin: 1.5rem 0;
+			}
 			@media screen and (min-width: 600px) {
 				body {
 					padding: 2rem;
 				}
 			}
+
+			footer {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 120px;
+			}
 		</style>
 	</head>
 	<body>
 		<main>
-			<h1>Bazar do Carlinhos
-				🇧🇷	🇵🇹</h1>
+			<header>
+				<h1>Bazar do Carlinhos	🇧🇷	🇵🇹</h1>
+				<ContactBtn />
+			</header>
 			{products.map(p => <Item item={p} client:load />)}
+			<footer>
+				<ContactBtn />
+			</footer>
 		</main>
 		<div id="modal-root"></div>
 	</body>

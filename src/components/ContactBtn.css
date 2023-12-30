@@ -1,0 +1,16 @@
+.contact {
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.contact:hover {
+	background-color: darkgreen;
+}
