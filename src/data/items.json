@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Guitarra Fender Stratocaster MX",
+    "description": ["Guitarra em excelente estado, pouco usada", "Acompanha bag e alavanca."],
+    "price": 4.999,
+    "images": ["guitar-fender-1.webp", "guitar-fender-2.webp", "guitar-fender-3.webp"]
+  },
+  {
+    "id": 2,
+    "title": "Violão de Nylon Di Giorgio - Talent II",
+    "description": ["Violão com ótima construção fundo em jacarandá topo em spruce canadense.", "Acompanha case de luxo. (obs. precisa de reparo no braço)"],
+    "price": 999.00,
+    "images": ["ac-guitar-1.webp", "ac-guitar-2.webp", "ac-guitar-3.webp", "ac-guitar-4.webp"]
+  },
+  {
+    "id": 3,
+    "title": "Amplificador de Baixo Meteoro - Ultrabass BX200",
+    "description": ["Amplificador de baixo 250W muito potente e ótimo som.", "(obs. precisa de reparo na alça)"],
+    "price": 1499.00,
+    "images": ["bass-amp-1.webp", "bass-amp-2.webp", "bass-amp-3.webp"]
+  },
+  {
+    "id": 4,
+    "title": "Amplificador de Guitarra Giannini - G65 ",
+    "description": ["Amplificador com ótimo som. Canais clean e drive e efeito de reverb e chorus.", "obs. precisa de reparo no circuito)"],
+    "price": 299.00,
+    "images": ["guitar-amp-1.webp", "guitar-amp-2.webp"]
+  },
+  {
+    "id": 5,
+    "title": "Teclado Sintetizador Roland XPS-10",
+    "description": ["Teclado de 61 teclas com ótimos timbres e efeitos padrão Roland.", "Teclas com sensibilidade e controles de pitch e modulação."],
+    "price": 1299.00,
+    "images": ["roland-keys-1.webp", "roland-keys-2.webp", "roland-keys-3.webp", "roland-keys-4.webp"]
+  },
+  {
+    "id": 6,
+    "title": "Monitores de Estúdio Samson - Resolv 65a",
+    "description": ["Monitores ativos de alta qualidade com 100W de potência (RMS) cada. Range de frequência de 20Hz a 20kHz."],
+    "price": 1199.00,
+    "images": ["studio-monitors-1.webp", "studio-monitors-2.webp", "studio-monitors-3.webp"]
+  },
+  {
+    "id": 7,
+    "title": "Violino Eagle",
+    "description": ["Excelente violino Eagle 4/4 com arco e case. Pouco usado e em ótimo estado."],
+    "price": 699.00,
+    "images": ["violin-1.webp", "violin-2.webp", "violin-3.webp", "violin-4.webp"]
+  }
+]

@@ -1,0 +1,72 @@
+/* src/components/Item.css */
+
+.item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item h3 {
+  margin-top: 0;
+}
+
+.item p {
+  margin-bottom: 12px;
+}
+
+.item-image {
+  cursor: pointer;
+  max-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+	.item-image {
+		max-width: 100%;
+	}
+}
+
+/* Modal styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+	min-width: 300px;
+	height: auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
