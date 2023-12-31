@@ -23,6 +23,7 @@
 .item .hint {
   margin: 0 1rem;
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .item-image {
@@ -34,7 +35,7 @@
 
 @media only screen and (max-width: 500px) {
 	.item-image {
-		max-width: 100%;
+		max-width: 50%;
 	}
 }
 
