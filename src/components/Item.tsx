@@ -9,6 +9,7 @@ interface ItemProps {
 		price?: number;
     toConsultPrice?: boolean;
 		images: string[];
+    sold: boolean;
 	}
 }
 
@@ -29,6 +30,7 @@ function Item({ item }: ItemProps) {
 
   return (
     <div className="item">
+      {item.sold && <div className="sold">Vendido!</div>}
       <h3>{item.title}</h3>
       {item.description.map((d) => (
         <p>{d}</p>

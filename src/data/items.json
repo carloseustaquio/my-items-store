@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "sold": false,
     "title": "Guitarra Fender Stratocaster MX",
     "description": ["Uma Fender Strato dispensa apresentações. Guitarra em excelente estado, pouco usada.", "Acompanha bag e alavanca."],
     "price": 4.999,
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "sold": false,
     "title": "Baixo Yamaha - RBX170",
     "description": ["Baixo de 4 cordas passivo, bom timbre, muito bem conservado.", "Acompanha bag de luxo."],
     "price": 1.199,
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "sold": true,
     "title": "Violão de Nylon Di Giorgio - Talent II",
     "description": ["Violão com ótima construção fundo em jacarandá topo em spruce canadense.", "Acompanha case de luxo. (obs. precisa de reparo no braço)."],
     "price": 899.00,
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "sold": false,
     "title": "Amplificador de Baixo Meteoro - Ultrabass BX200",
     "description": ["Amplificador de baixo 250W muito potente e ótimo som.", "(obs. precisa de reparo na alça)"],
     "price": 2999.00,
@@ -29,6 +33,7 @@
   },
   {
     "id": 5,
+    "sold": false,
     "title": "Amplificador de Guitarra Giannini - G65 ",
     "description": ["Amplificador com ótimo som. Canais clean e drive e efeito de reverb e chorus.", "obs. precisa de reparo no circuito)"],
     "price": 299.00,
@@ -36,6 +41,7 @@
   },
   {
     "id": 6,
+    "sold": true,
     "title": "Teclado Sintetizador Roland XPS-10",
     "description": ["Teclado de 61 teclas com ótimos timbres e efeitos padrão Roland.", "Teclas com sensibilidade e controles de pitch e modulação.", "Acompanha pedestal, pedal de sustain, e bag feita sob-medida."],
     "price": 1999.00,
@@ -43,6 +49,7 @@
   },
   {
     "id": 7,
+    "sold": false,
     "title": "Monitores de Estúdio Samson - Resolv 65a",
     "description": ["Monitores ativos de alta qualidade com 100W de potência (RMS) cada. Range de frequência de 20Hz a 20kHz."],
     "price": 1199.00,
@@ -50,6 +57,7 @@
   },
   {
     "id": 8,
+    "sold": false,
     "title": "Violino Eagle",
     "description": ["Excelente violino Eagle 4/4 com arco e case. Pouco usado e em ótimo estado."],
     "price": 699.00,
@@ -57,6 +65,7 @@
   },
   {
     "id": 9,
+    "sold": false,
     "title": "Piano Vertical Essenfelder",
     "description": ["Modelo antigo com qualidade de som impressionante, teclas de alta qualidade, em ótimo estado de conservação.", "Cor madeira em tom escuro", "Acompanha banqueta."],
     "toConsultPrice": true,
